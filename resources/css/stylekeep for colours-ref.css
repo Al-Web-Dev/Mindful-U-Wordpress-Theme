@@ -1,0 +1,78 @@
+
+html {
+	font-size: 16px;
+	font-family: 'lato' , sans-serif;
+	}
+body {
+	margin: ;
+}
+
+
+	
+
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+	opacity: 0.97;
+	display: flex;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	color: #b0cfe1;	
+}
+header a {
+	text-decoration: none;
+	color: #b0cfe1;	
+
+}
+header nav ul {
+	display: flex;
+}
+nav li {
+	padding-right: 1.4rem;
+	list-style: none;
+}
+
+
+.header-text {
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+/* Banner */
+
+span {
+		font-family: 'lato', cursive;
+		color: #6184a0;
+		font-size: 39px;
+		font-weight: 20px;
+		display: inline-block;
+	}
+
+.main {
+	width: 1151px;
+	padding: 10px;
+	margin: 15px auto;
+	text-align: center;
+	background-image: url('../images/cloud-mountain-landscape.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	height: 471px;
+	border-radius: 2px;
+	z-index: 1;
+
+}
+.text {
+	display: block;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	margin-top: 39px;
+	
+}

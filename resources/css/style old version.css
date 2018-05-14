@@ -1,0 +1,223 @@
+body {
+	font-size: 22px;
+	font-family: 'lato', sans-serif;
+	margin: 0;
+	border:;
+}
+
+
+
+a {
+	color: #547b92;
+	text-decoration: none;
+}
+
+nav span {
+	display: inline-block;
+	padding-right: 40px;
+}
+span {
+	color: #b0cfe1;
+}
+.logo {
+	display: flex;
+	flex-grow: 1;
+	padding-left: 22px;
+}
+.logo img {
+	width: 86px;
+	height: auto;
+}
+
+header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	background-color: #dbe3e863;
+	z-index: 100;
+	border-bottom: solid 1px  #b0cfe1;
+	height: 55px;
+}
+header, p {
+	font-size: 17px;
+}
+
+
+/*main content container */
+.content {
+  width: 100%;
+  margin: 0;
+  padding-top: 0px;
+}
+.about-content {
+	padding-top: 93px;
+}
+.banner {
+	background-image: url("../images/cloud-mountain-landscape.jpg");
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 545px;
+	text-align: center;
+}
+.banner-about {
+	display: flex;
+	align-items: center;
+	background-color: #80808014;
+}
+.banner-about img {
+	width: 50%;
+	height: 50%;
+	padding-top: 59px;
+    padding-left: 8px;
+	
+}
+.about-text {
+	font-size: 20px;
+	padding: 48px 8px 0px 8px;
+	max-width: 1000px;
+	margin: 0px auto;
+	background-color: #a19d5f38;
+	border-radius: 20px;
+}
+
+.about-text img {
+	float: left;
+	padding: 8px;
+	border-radius: 30px;
+}
+.about-text h1 {
+	font-size: 40px;
+}
+.about-text p {
+	text-align: left;
+}
+#about-container {
+	padding-top: 109px;	
+}
+
+.image-content {
+	color: #557c92;
+	display: inline-block;
+	padding-top: 75px;
+
+}
+.image-content, h1 {
+	font-size: 52px;
+	margin-bottom: 38px;
+    margin-top: 14px;
+}
+.image-content h2 {
+	border-top: 1.5px solid #e0eae1;
+	border-bottom: 1.5px solid #e0eae1;
+	padding: 5px 0px 5px 0px;
+	color:#f6f6f4;
+}
+
+.image-content p {
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 18px;
+}
+
+
+.course-date h2 {
+	color: #547b92;
+   border-top: 2px solid #547b9240;
+   border-bottom: 2px solid #547b9240;
+   padding: 8px;
+}
+
+.text-boxes {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	margin-top: 10px;	
+	justify-content: center;
+	padding-top: 5px;
+}
+#margin-right {
+	margin-right: 8px;
+}
+.box {
+	border: 2px solid #6789a300;
+	padding: 5px;
+	width: 30%;
+	color: #557c92;
+	text-align: center;
+	justify-content: center;
+	background-color: #b9cedc59;
+}
+
+.box h3 {
+	font-size: 30px;
+}
+
+.box:hover {
+	border-color: #feffeb70;
+	background-color: #b9cedc00;
+	transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);	
+	/*transition: background-color 0.5s cubic-bezier(0.4, 0, 1, 1);*/
+	text-decoration: none;
+	}
+
+
+.box a:hover {
+	text-decoration: none;
+	color: #557c92;
+}
+
+
+@media only screen and (max-width: 430px) {
+#image-padding {
+	padding-left: 0;
+}
+.text-boxes {
+	flex-direction: column;
+	text-align: center;
+}
+#margin-right {
+	width: 100%;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+	#try-now {
+		display: none;
+	}
+	.box {
+		width: 100%;
+	}
+	
+	}
+
+}
+
+@media only screen and (min-width: 951px) {
+	.desktop {
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+
+	.desktop {
+		display: none;
+	}
+
+}
+
+@media (min-width: 768px) {
+.container {
+    width: 838px;
+}
+
+
